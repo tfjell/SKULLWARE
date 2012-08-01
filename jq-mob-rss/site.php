@@ -1,24 +1,17 @@
 <?php
 // If "siteName" isn't in the querystring, set the default site name to 'nettuts'
-$siteName = empty($_GET['siteName']) ? 'nettuts' : $_GET['siteName'];
+$siteName = empty($_GET['siteName']) ? 'macblog.us' : $_GET['siteName'];
 
 $siteList = array(
-   'nettuts',
-   'flashtuts',
-   'webdesigntutsplus',
-   'psdtuts',
-   'vectortuts',
-   'phototuts',
-   'mobiletuts',
-   'cgtuts',
-   'audiotuts',
-   'aetuts'
+   'macblog-us',
+   'cryptobuddhist',
+   'tinybuddha'
 );
 
 // For security reasons. If the string isn't a site name, just change to 
 // nettuts instead.
 if ( !in_array($siteName, $siteList) ) {
-   $siteName = 'nettuts';
+   $siteName = 'macblog-us';
 }
 
 $cache = dirname(__FILE__) . "/cache/$siteName";
@@ -54,8 +47,8 @@ else
 $feed = json_decode($feed);
 
 // Activetuts is still using the old Flashtuts RSS path.
-if ( $siteName === 'flashtuts' ) $siteName = 'activetuts';
-else if ( $siteName === 'webdesigntutsplus' ) $siteName = 'webdesigntuts';
+//if ( $siteName === 'flashtuts' ) $siteName = 'activetuts';
+//else if ( $siteName === 'webdesigntutsplus' ) $siteName = 'webdesigntuts';
 
 // Include the view
 include('views/site.tmpl.php');

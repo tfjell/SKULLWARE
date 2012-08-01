@@ -3,7 +3,7 @@
  <div data-role="page">
    <header data-role="header" class="tuts">
      <h1>
-       <img src="img/TLogo.png" alt="Tuts+" />
+       <img src="img/TLogo.png" alt="MacBlog" />
      </h1>
    </header>
    <!-- /header -->
@@ -11,13 +11,19 @@
    <div data-role="content">
      <ul data-role="listview" data-theme="c" data-dividertheme="d" data-counttheme="e">
        <li>
-         <img src="img/ntLogo.jpg" alt="Nettuts" class="ui-li-icon" />
-         <a href="site.php?siteName=nettuts"> Nettuts+ </a>
+         <img src="img/ntLogo.jpg" alt="MacBlog" class="ui-li-icon" />
+         <a href="site.php?siteName=macblog-us">MacBlog.us</a>
        </li>
        <li>
-         <img src="img/psdLogo.jpg" alt="Psdtuts" class="ui-li-icon" />
-         <a href="site.php?siteName=psdtuts"> Psdtuts+ </a>
+         <img src="img/psdLogo.jpg" alt="8foldpath" class="ui-li-icon" />
+         <a href="site.php?siteName=cryptobuddhist">8foldpath</a>
        </li>
+       <li>
+         <img src="img/psdLogo.jpg" alt="tinybuddha" class="ui-li-icon" />
+         <a href="site.php?siteName=tinybuddha">tinybuddha</a>
+       </li>
+       
+       <!--
        <li>
          <img src="img/vectorLogo.jpg" alt="Vectortuts+" class="ui-li-icon" />
          <a href="site.php?siteName=vectortuts"> Vectortuts+ </a>
@@ -50,11 +56,13 @@
          <img src="img/wdLogo.jpg" alt="Webdesigntuts+" class="ui-li-icon" />
          <a href="site.php?siteName=webdesigntutsplus"> Webdesigntuts+ </a>
        </li>
+       -->
+       
      </ul>
    </div>
 
    <footer data-role="footer" class="tuts">
-      <h4> www.tutsplus.com </h4>
+      <h4>macblog.us</h4>
    </footer>
 
  </div>
