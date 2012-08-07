@@ -16,33 +16,6 @@
 	<string>1</string>
 	<key>Chrome</key>
 	<dict>
-		<key>Context Menu Items</key>
-		<array>
-			<dict>
-				<key>Command</key>
-				<string>generateHash</string>
-				<key>Identifier</key>
-				<string>generateHash</string>
-				<key>Title</key>
-				<string>Generate Hash</string>
-			</dict>
-			<dict>
-				<key>Command</key>
-				<string>genSHA256</string>
-				<key>Identifier</key>
-				<string>genSHA256</string>
-				<key>Title</key>
-				<string>Generate Hash|SHA256</string>
-			</dict>
-			<dict>
-				<key>Command</key>
-				<string>genMD5</string>
-				<key>Identifier</key>
-				<string>genMD5</string>
-				<key>Title</key>
-				<string>Generate Hash|MD5</string>
-			</dict>
-		</array>
 		<key>Database Quota</key>
 		<real>1048576</real>
 		<key>Menus</key>
