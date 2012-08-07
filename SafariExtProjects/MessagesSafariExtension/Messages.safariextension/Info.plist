@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Apple Inc.</string>
+	<key>CFBundleDisplayName</key>
+	<string>Messages</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.safari.examples.messages</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>show-messages</string>
+				<key>Identifier</key>
+				<string>messages</string>
+				<key>Image</key>
+				<string>message.png</string>
+				<key>Label</key>
+				<string>Messages</string>
+				<key>Palette Label</key>
+				<string>Messages</string>
+				<key>Tool Tip</key>
+				<string>Show messages.</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Shows how to have badged toolbar items.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict/>
+	</dict>
+	<key>Website</key>
+	<string>http://developer.apple.com/safari/</string>
+</dict>
+</plist>
