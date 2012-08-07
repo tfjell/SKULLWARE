@@ -19,10 +19,50 @@
 		<key>Context Menu Items</key>
 		<array>
 			<dict>
+				<key>Command</key>
+				<string>generateHash</string>
 				<key>Identifier</key>
-				<string>sha256</string>
+				<string>generateHash</string>
 				<key>Title</key>
-				<string>Hash: SHA256</string>
+				<string>Generate Hash</string>
+			</dict>
+			<dict>
+				<key>Command</key>
+				<string>genSHA256</string>
+				<key>Identifier</key>
+				<string>genSHA256</string>
+				<key>Title</key>
+				<string>Generate Hash|SHA256</string>
+			</dict>
+			<dict>
+				<key>Command</key>
+				<string>genMD5</string>
+				<key>Identifier</key>
+				<string>genMD5</string>
+				<key>Title</key>
+				<string>Generate Hash|MD5</string>
+			</dict>
+		</array>
+		<key>Database Quota</key>
+		<real>1048576</real>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>CryptoContext</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Checked State</key>
+						<real>1</real>
+						<key>Command</key>
+						<string>genSHA256</string>
+						<key>Identifier</key>
+						<string>genSHA256</string>
+						<key>Title</key>
+						<string>SHA256</string>
+					</dict>
+				</array>
 			</dict>
 		</array>
 	</dict>
